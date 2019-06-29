@@ -5,6 +5,24 @@
 
 [/2p_pronouns/MTNT/](https://github.com/pjshoemark/infMT_probing/tree/master/2p_pronouns/MTNT) contains automatically extracted examples from MTNT in which a 2nd person personal pronoun is used in the source text and/or the target text.
 
+
+### Extracted from aligned data:
+
+In `*.-aligned.tsv`, columns are as follows:
+
+1. Source Text 
+2. Target Text
+3. Space separated list of identified pronouns and the words they are aligned to. Format: {index}\_{source-token}:{index}\_{aligned-target-token}
+5. Are there more 2p pronouns in Source or in Target? {S, T, 0}
+6. Are T or V forms used? {0, T, V, Both}
+
+The alignments are the ones Graham obtained using fastalign (original aligned dataset here: http://phontron.com/data/wmt2019-aligned-data.tar.gz)
+
+
+<hr>
+
+### Extracted from un-aligned data:
+
 In `*.en-fr.tsv` and `*.fr-en.tsv`, columns are as follows:
 
 1. ID  
