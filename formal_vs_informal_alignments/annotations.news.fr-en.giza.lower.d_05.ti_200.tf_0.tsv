@@ -1,20 +1,20 @@
 Source word	JS dist	OOV in formal	Low freq in formal	Different senses	Different synonyms	Punct	Alignment error	Other	Comment
 *	0.9720009382388170	1				1			
 >	0.9598858177025280	1				1			
-libre	0.9508505998562090						1		"forum libre" -> "free forum". 'forum' gets aligned to 'free' and 'libre' to 'forum' by both giza and fastalign 
+libre	0.9508505998562090						1		'forum libre' -> 'free forum'. 'forum' gets aligned to 'free' and 'libre' to 'forum' by both giza and fastalign 
 ta	0.9331770991722840		1						
 t'	0.9102777904851860		1						
 as	0.9075190921054850		1						
-ton	0.8895872535500550		1	1					your' in informal; 'tone' in formal
+ton	0.8895872535500550		1	1					'your' in informal; 'tone' in formal
 '	0.8886255743769241		1			1			
 y'a	0.8834265010744720	1							
 es	0.8659983640510480		1						
-forum	0.8634538962587030						1		"forum libre" -> "free forum". 'forum' gets aligned to 'free' and 'libre' to 'forum' by both giza and fastalign 
+forum	0.8634538962587030						1		'forum libre' -> 'free forum'. 'forum' gets aligned to 'free' and 'libre' to 'forum' by both giza and fastalign 
 «	0.8444521864384850					1			smart quotes used in formal; straight quotes in informal
 te	0.8352518643242660		1						
 »	0.8208371055353460		1			1			smart quotes used in formal; straight quotes in informal
 merci	0.812636631805124		1	1					informal:'thanks', formal:'mercy'
-coup	0.8043969736198660			1					informal: "du coup" = so
+coup	0.8043969736198660			1					informal: 'du coup' = so
 ah	0.7647550258904320		1						
 toi	0.7541391433293620		1		1				formal: thyself and thee!
 fais	0.7489298382932950		1						
@@ -28,12 +28,12 @@ suis	0.6630681707924710				1				contracted form of am ('m) much more frequent in
 bon	0.6488904618351620			1					dominant sense same ('good'), but then formal has 'many', 'cheap' vs informal 'well', 'ok'
 peu	0.6436801161622750							1	dominant sense same
 voir	0.6298012053683770							1	dominant sense same
-genre	0.6226228175090490			1					dominant sense in informal is 'like', as in, "pendant genre 1 mois" = "for, like, 1 month"
+genre	0.6226228175090490			1					dominant sense in informal is 'like', as in, 'pendant genre 1 mois' = 'for, like, 1 month'
 ai	0.6208145407564630				1				contracted form of have ('ve) more frequent in informal
 bien	0.619266706891717							1	dominant sense is same for both ('well'); informal also has 'good'
 on	0.6122186545788590			1					we, you (informal) vs one, it (formal)
 beaucoup	0.6118614561631120				1				a lot (informal) vs many (formal)
-l'	0.6075916721576350							1	dominant sense same ("the") - formal also has "'s"?
+l'	0.6075916721576350							1	dominant sense same (the); formal also has 's 
 donc	0.6068353017743200				1				so vs thus
 très	0.6020538900683550				1				really vs highly
 elle	0.6019315068957320			1					'it' dominant in formal; 'she' dominant in informal
