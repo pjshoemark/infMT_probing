@@ -1,0 +1,41 @@
+Source word	JS dist	OOV in formal	Low freq in formal	Different senses	Different synonyms	Punct	Alignment error	Other	Comment
+>	0.9629274993915080	1				1			
+*	0.9608953302492210	1				1			
+/r	0.942660557713898	1							
+lol	0.9243912412752320	1							
+yeah	0.9171429264624680	1							
+til	0.9070831376156210	1							
+thanks	0.9035120581915580			1					merci (informal) vs grâce a (formal)
+sub	0.8927489532662238			1					sub as in subreddit (informal) vs prefix (formal)
+shit	0.8785142338079660		1						
+'ve	0.8639855191297600		1						
+fuck	0.8520285789490230		1						
+vs	0.8513915355413560	1							
+please	0.8505221365453780			1					s'il vous plais (informal) vs plaire a (formal)
+guy	0.8329543805524980		1						
+'ll	0.8265291793369880		1						
+fucking	0.8224714636380040	1							
+guess	0.8059561235650840			1					suppose (informal) vs devinir (formal)
+guys	0.8046981515096470		1						
+thread	0.7976312197059690		1						
+'d	0.7952392094953650		1						
+..	0.7902037755468410		1			1			ellipsis character used in formal, vs three periods in informal
+looking	0.7660999361880810				1				cherche (informal) vs reserche (formal)
+great	0.7569032274054460			1					super/genial (informal) vs grande (formal)
+stuff	0.7518238481402710				1				trucs, choses, vs matiere, marchandises
+hope	0.7447266269680990			1					noun (formal) vs verb (informal)
+'s	0.7438269204943360			1					contracted form of 'is' dominates in informal, vs possessive in formal
+agree	0.7422252982556600							1	d'accord vs s'accord?
+oh	0.7400953827648240		1						
+discussion	0.7300155235395580			1					discussion thread vs debate
+'re	0.7277155501101350		1	1					etes, es (informal) vs sont, sommes (formal)
+mean	0.72486119189853			1					veux que dire (informal) vs signifie (formal)
+r	0.7239995014024210		1						
+post	0.7227904510648350			1					post - as in reddit post (informal) vs apres (formal)
+home	0.7210625850786650			1					maison' dominant in informal, vs 'chez' in formal
+-	0.7175750625400010					1		1	
+live	0.7159664953828750			1					direct (informal) vs vivre (formal)
+try	0.7147259383505070			1					most common is 'essayer' for both, but 'tenter' more common in formal than in informal
+feel	0.7144108112329340				1				avoir l'impression (informal), vs sentir (formal). Also more 1st person conjugation in informal.
+nt	0.7067370582147170		1						
+think	0.7014832438989850							1	infinitive more common in formal, conjugated 1p more common in informal
