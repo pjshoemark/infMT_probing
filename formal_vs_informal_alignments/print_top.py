@@ -47,7 +47,7 @@ if __name__ == "__main__":
 	parser.add_argument("-cm", "--counts_informal_filepath", type=str, help="path to file containing counts for informal corpus", default = 'europarl/en-ja/mtnt-trainclean-valid.en-ja.fa.lower.unigram_counts.json')
 	parser.add_argument("-ce", "--counts_formal_filepath", type=str, help="path to file containing counts for formal corpus", default = 'europarl/en-ja/extra-trainclean-valid.en-ja.fa.lower.unigram_counts.json')
 	parser.add_argument("-d", "--distances_filepath", type=str, help="path to file containing distances", default = 'europarl/en-ja/mtnt-trainclean-valid.en-ja.fa.lower.unigram_js_distances.d_05.tsv')
-	parser.add_argument("-ti", "--threshold_informal", type=int, help="minimum count in informal", default = 200)
+	parser.add_argument("-ti", "--threshold_informal", type=int, help="minimum count in informal", default = 20)
 	parser.add_argument("-tf", "--threshold_formal", type=int, help="minimum count in formal", default = 0)
 	parser.add_argument("-n", "--number_to_print", type=int, help="how many top-n results to show", default=10)   
 	
