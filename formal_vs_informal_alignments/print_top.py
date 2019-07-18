@@ -12,7 +12,11 @@ def process_dataset(counts_informal_filepath, counts_formal_filepath, distances_
 
 	n = 0
 	for line in list(reversed(list(open(distances_filepath, 'r')))): 
-		(w,d) = line.strip().split('\t') 
+		try:
+			(w,d) = line.strip().split('\t')
+		except ValueError:
+			d = line.strip().split('\t')
+			w = ''
 		if w in counts_informal:   
 			count_informal = sum(counts_informal[w].values())
 			top_informal = sorted(counts_informal[w].items(), key = lambda x:-x[1])[:3]
@@ -40,9 +44,9 @@ def process_dataset(counts_informal_filepath, counts_formal_filepath, distances_
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("-cm", "--counts_informal_filepath", type=str, help="path to file containing counts for informal corpus", default = 'news/fr-en/mtnt-trainclean.fr-en.giza.lower.counts.json')
-	parser.add_argument("-ce", "--counts_formal_filepath", type=str, help="path to file containing counts for formal corpus", default = 'news/fr-en/News-Commentary-trainclean.fr-en.giza.lower.counts.json')
-	parser.add_argument("-d", "--distances_filepath", type=str, help="path to file containing distances", default = 'news/fr-en/fr-en.giza.lower.js_distances.d_05.tsv')
+	parser.add_argument("-cm", "--counts_informal_filepath", type=str, help="path to file containing counts for informal corpus", default = 'europarl/en-ja/mtnt-trainclean-valid.en-ja.fa.lower.unigram.counts.json')
+	parser.add_argument("-ce", "--counts_formal_filepath", type=str, help="path to file containing counts for formal corpus", default = 'europarl/ja-en/extra-trainclean.en-ja.fa.lower.unigram.counts.json')
+	parser.add_argument("-d", "--distances_filepath", type=str, help="path to file containing distances", default = 'europarl/en-ja/en-ja.fa.lower.unigram.js_distances.d_05.tsv')
 	parser.add_argument("-ti", "--threshold_informal", type=int, help="minimum count in informal", default = 200)
 	parser.add_argument("-tf", "--threshold_formal", type=int, help="minimum count in formal", default = 0)
 	parser.add_argument("-n", "--number_to_print", type=int, help="how many top-n results to show", default=10)   
